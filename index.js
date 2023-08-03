@@ -8,8 +8,6 @@ const toggleTheme = () => {
   }
 };
 
-// Add the event listener using .addEventListener instead of .addListener
 darkThemeQuery.addEventListener('change', toggleTheme);
 
-// Call toggleTheme initially to set up the theme based on user preference
 toggleTheme();
