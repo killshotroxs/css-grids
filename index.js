@@ -1,4 +1,4 @@
-const darkThemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+const darkThemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
 const toggleTheme = () => {
   const themeStylesheet = document.querySelector('link[href="index-dark.css"]');
   if (darkThemeQuery.matches) {
@@ -8,6 +8,6 @@ const toggleTheme = () => {
   }
 };
 
-darkThemeQuery.addEventListener('change', toggleTheme);
+darkThemeQuery.addEventListener("change", toggleTheme);
 
 toggleTheme();
