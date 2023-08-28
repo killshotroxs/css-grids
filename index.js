@@ -14,7 +14,7 @@ toggleTheme();
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from(".box3", { opacity: 0, y: 100, delay: 1, duration: 1 });
+gsap.from(".box3", { opacity: 0, y: 100, delay: 1, duration: 1, });
 
 gsap.from(".box4 img", {
   opacity: 0,
@@ -24,16 +24,7 @@ gsap.from(".box4 img", {
     trigger: ".box4 .img",
     start: "30% 20% ",
     end: "top 80%",
-    scrub: 1,
-    toggleActions: "restart none none none",
-    // markers: {
-    //   startColor: "white",
-    //   endColor: "white",
-    //   fontSize: "18px",
-    //   fontWeight: "bold",
-    //   indent: 20,
-    // },
-  },
+    scrub: 1,  },
 });
 
 gsap.from(".box5 img", {

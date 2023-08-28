@@ -1,5 +1,7 @@
 body {
-  background-color: chartreuse;
+ margin: 0;
+ padding: 8px;
+ box-sizing: border-box;
 }
 
 .main-container {
@@ -17,6 +19,7 @@ body {
 
 .item {
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .box1 {
@@ -80,6 +83,10 @@ body {
   justify-content: center;
 }
 
+.box6 img{
+  max-width: 300px;
+}
+
 .box7 {
   background-color: red;
   grid-area: item-7;
@@ -94,10 +101,10 @@ body {
   max-width: 300px;
 }
 
+
 @media screen and (max-width: 500px) {
   .main-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 0.4fr 1.8fr 1fr 1fr 1fr 0.5fr;
     grid-template-areas:
       "box1"
       "box2"
@@ -107,4 +114,5 @@ body {
       "box6"
       "box7";
   }
+
 }
