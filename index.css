@@ -3,7 +3,7 @@ body {
 }
 
 .main-container {
-  max-width: fit-content;
+  margin: 0;
   display: grid;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -72,9 +72,6 @@ body {
   justify-content: center;
 }
 
-.box5 img{
-  min-width: 300px;
-}
 
 .box6 {
   background-color: orange;
@@ -97,7 +94,7 @@ body {
 }
 
 .box7 img{
-  max-width: 450px;
+  max-width: 390px;
 }
 
 @media screen and (max-width: 500px) {
