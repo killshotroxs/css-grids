@@ -3,7 +3,6 @@ body {
 }
 
 .main-container {
-  margin: 0;
   display: grid;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -92,7 +91,7 @@ body {
 }
 
 .box7 img {
-  max-width: 350px;
+  max-width: 300px;
 }
 
 @media screen and (max-width: 500px) {
