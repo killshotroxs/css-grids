@@ -8,10 +8,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 97vh;
     grid-template-areas:
-      "item-1 item-1 item-1 item-1"
-      "item-2 item-3 item-3 item-3"
-      "item-2 item-4 item-5 item-6"
-      "item-2 item-7 item-7 item-7";
+      "box1 box1 box1 box1"
+      "box2 box3 box3 box3"
+      "box2 box4 box5 box6"
+      "box2 box7 box7 box7";
     gap: 0.2rem;
   }
   
@@ -20,39 +20,48 @@ body {
   }
   
   
-  .item-1 {
+  .box1 {
     background-color: violet;
     grid-area: item-1;
+    min-height: 50px;
   }
   
-  .item-2 {
+  .box2 {
     background-color: indigo;
     grid-area: item-2;
+    min-height: 50px;
+
   }
   
-  .item-3 {
+  .box3 {
     background-color: blue;
     grid-area: item-3;
+    height: 500px;
   }
   
-  .item-4 {
+  .box4 {
     background-color: green;
     grid-area: item-4;
+    height: 500px;
+
   }
   
-  .item-5 {
+  .box5 {
     background-color: yellow;
     grid-area: item-5;
+    height: 500px;
   }
   
-  .item-6 {
+  .box6 {
     background-color: orange;
     grid-area: item-6;
+    height: 500px;
   }
   
-  .item-7 {
+  .box7 {
     background-color: red;
     grid-area: item-7;
+    height: 500px;
   }
   
   @media screen and (max-width: 500px) {
@@ -60,13 +69,13 @@ body {
       grid-template-columns: 1fr;
       grid-template-rows : 0.4fr 0.4fr 1.8fr 1fr 1fr 1fr 0.5fr ;
       grid-template-areas : 
-      "item-1"
-      "item-2"
-      "item-3"
-      "item-4"
-      "item-5"
-      "item-6"
-      "item-7"
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7"
     }
   }
   
