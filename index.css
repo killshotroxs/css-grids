@@ -1,7 +1,9 @@
 body {
- margin: 0;
- padding: 8px;
- box-sizing: border-box;
+  background-color: white;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .main-container {
@@ -19,12 +21,11 @@ body {
 
 .item {
   border-radius: 10px;
-  overflow: hidden;
 }
 
 .box1 {
   background-color: violet;
-  grid-area: item-1;
+  grid-area: box1;
   min-height: 50px;
   display: flex;
   text-align: center;
@@ -34,7 +35,7 @@ body {
 
 .box2 {
   background-color: indigo;
-  grid-area: item-2;
+  grid-area: box2;
   min-height: 50px;
   display: flex;
   text-align: center;
@@ -45,7 +46,7 @@ body {
 
 .box3 {
   background-color: blue;
-  grid-area: item-3;
+  grid-area: box3;
   height: 630px;
   display: flex;
   text-align: center;
@@ -55,7 +56,7 @@ body {
 
 .box4 {
   background-color: green;
-  grid-area: item-4;
+  grid-area: box4;
   height: 800px;
   display: flex;
   text-align: center;
@@ -65,7 +66,7 @@ body {
 
 .box5 {
   background-color: yellow;
-  grid-area: item-5;
+  grid-area: box5;
   height: 800px;
   display: flex;
   text-align: center;
@@ -75,7 +76,7 @@ body {
 
 .box6 {
   background-color: orange;
-  grid-area: item-6;
+  grid-area: box6;
   height: 800px;
   display: flex;
   text-align: center;
@@ -89,7 +90,7 @@ body {
 
 .box7 {
   background-color: red;
-  grid-area: item-7;
+  grid-area: box7;
   height: 800px;
   display: flex;
   text-align: center;
@@ -114,5 +115,14 @@ body {
       "box6"
       "box7";
   }
+
+  body {
+    margin: 0; /* reset the margin */
+    padding: 8px; /* apply padding same as margin */
+    box-sizing: border-box;
+}
+.item {
+    overflow: hidden; /* used to hide content once translated */
+}
 
 }
