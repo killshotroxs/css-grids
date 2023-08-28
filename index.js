@@ -22,7 +22,7 @@ gsap.from(".box4 img", {
   duration: 3,
   scrollTrigger: {
     trigger: ".box4 .img",
-    start: "50% 20% ",
+    start: "30% 20% ",
     end: "top 80%",
     scrub: 1,
     toggleActions: "restart none none none",
