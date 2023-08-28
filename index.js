@@ -16,13 +16,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.from(".box3", { opacity: 0, y: 100, delay: 1, duration: 1 });
 
-gsap.from(".box4 img", {
-  scrollTrigger: ".box4 img",
-  opacity: 0,
-  scrub: true,
-  x: 300,
-  // normalizeScroll: true,
-  duration: 3,
-  start: "top top", // when the top of the trigger hits the top of the viewport
-  end: "+=500",
-});
+gsap.from(".box4 img",{
+  opacity:0,
+  x:100,
+  duration:1,
+  scrollTrigger:{
+    trigger:".box4 .img",
+    // start:"top 80%",
+    // end:"top 30%",
+    scrub:2,
+    toggleActions:"restart none none none",
+    markers:true,
+  }
+})
