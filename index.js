@@ -41,18 +41,7 @@ gsap.from(".box5 img", {
   x: -300,
   duration: 3,
   scrollTrigger: {
-    trigger: ".box5 .img",
-    start: "80% 20% ",
-    end: "top 80%",
-    scrub: 1,
-    toggleActions: "restart none none none",
-    // markers: {
-    //   startColor: "white",
-    //   endColor: "white",
-    //   fontSize: "18px",
-    //   fontWeight: "bold",
-    //   indent: 20,
-    // },
+    trigger: ".box5 img",
   },
 });
 
@@ -61,18 +50,8 @@ gsap.from(".box6 img", {
   x: 300,
   duration: 3,
   scrollTrigger: {
-    trigger: ".box6 .img",
-    start: "80% 20% ",
-    end: "top 80%",
-    scrub: 1,
-    toggleActions: "restart none none none",
-    // markers: {
-    //   startColor: "white",
-    //   endColor: "white",
-    //   fontSize: "18px",
-    //   fontWeight: "bold",
-    //   indent: 20,
-    // },
+    trigger: ".box6 img",
+  
   },
 });
 
@@ -81,17 +60,7 @@ gsap.from(".box7 img", {
   x: -300,
   duration: 3,
   scrollTrigger: {
-    trigger: ".box7 .img",
-    start: "80% 20% ",
-    end: "top 80%",
-    scrub: 1,
-    toggleActions: "restart none none none",
-    // markers: {
-    //   startColor: "white",
-    //   endColor: "white",
-    //   fontSize: "18px",
-    //   fontWeight: "bold",
-    //   indent: 20,
-    // },
+    trigger: ".box7 img",
+    
   },
 });
