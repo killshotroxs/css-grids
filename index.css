@@ -3,7 +3,6 @@ body {
 }
 
 .main-container {
-  padding-right: 10px;
   margin: 0;
   display: grid;
   grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
@@ -29,7 +28,6 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  
 }
 
 .box2 {
@@ -73,7 +71,6 @@ body {
   justify-content: center;
 }
 
-
 .box6 {
   background-color: orange;
   grid-area: item-6;
@@ -94,7 +91,7 @@ body {
   justify-content: center;
 }
 
-.box7 img{
+.box7 img {
   max-width: 350px;
 }
 
